@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(#67f6c1, #031547);
+  background-size: cover;
+}
+
+.main {
+  background-color: #fff;
+  width: 70%;
+  margin: 50px auto;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.cabecalho {
+  position: relative;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.cabecalho h1 {
+  padding-top: 50px;
+  font-size: 35pt;
+  margin-bottom: 0;
+}
+
+.menu,
+.menu-lista {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu-itens {
+  text-align: center;
+  align-items: center;
+}
+
+.menu-itens a {
+  display: table-cell;
+  background-color: #03a7f9;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  border-right: 1px solid #fff;
+}
+
+.pginicial,
+.sobre,
+.contato .p_contato,
+.e-book,
+.blog {
+  padding: 30px;
+  align-items: center;
+  margin-left: 15px;
+  text-align: justify;
+  font-size: 15pt;
+}
+
+.pginicial img,
+.sobre img,
+.contato img,
+.contato-form,
+.e-book img,
+.blog img {
+  margin-left: 13%;
+}
+
+.sobre h1,
+.contato h1,
+.e-book h1 {
+  font-size: 30pt;
+  margin-left: 40%;
+}
+
+.sobre .perfil {
+  border-radius: 300px;
+  margin-left: 30%;
+  box-shadow: 5px 5px 10px black;
+}
+
+.contato-form {
+  align-items: center;
+  justify-content: center;
+}
+
+.f_nome,
+.f_email {
+  width: 300px;
+}
+
+.f_mensagem {
+  width: 300px;
+  height: 150px;
+}
